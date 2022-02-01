@@ -29,10 +29,12 @@ header {
 main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .head,
-.top_player {
+.top_player,
+.latest_course {
   width: 870px;
   margin: 0 auto;
 }
@@ -88,7 +90,8 @@ hr {
 }
 
 /* top player */
-.top_player {
+.top_player,
+.latest_course {
   background-color: #fff;
   border-radius: 5px;
   margin: 25px auto 15px;
@@ -97,12 +100,14 @@ hr {
 
 /* top player title */
 .top_player_title,
-.top_blog_title {
+.top_blog_title,
+.latest_course_title {
   margin-bottom: 35px;
 }
 
 .top_player_title h2,
-.top_blog_title h2 {
+.top_blog_title h2,
+.latest_course_title h2 {
   color: #562eff;
   font-size: 24px;
   font-weight: 500;
@@ -112,7 +117,8 @@ hr {
 .top_player_title,
 .player,
 .top_blog_title,
-.blog {
+.blog,
+.latest_course_title {
   margin-left: 25px;
 }
 
