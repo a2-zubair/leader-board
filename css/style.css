@@ -187,3 +187,39 @@ hr {
 .text_by {
   color: #9f9f9f;
 }
+
+/* course */
+.course_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding: 0 25px;
+}
+
+/* course info */
+.course_info {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #fff;
+  filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+}
+
+.course_img {
+  width: 224px;
+  height: 104px;
+}
+
+/* course info bottom */
+.course_info_bottom {
+  display: flex;
+}
+
+/* rating icon */
+.fa-star {
+  color: #ffc014;
+}
+
+.fa-star-gray {
+  color: #aeaeae;
+  opacity: 0.25;
+}
