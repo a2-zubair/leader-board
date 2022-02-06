@@ -204,14 +204,30 @@ hr {
   filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }
 
+/* course info top */
+.course_info_top {
+  margin-bottom: 20px;
+}
+
 .course_img {
   width: 224px;
   height: 104px;
+  margin-bottom: 12px;
+}
+
+.course_title {
+  margin-bottom: 5px;
+}
+
+.author {
+  color: #ed6b4f;
 }
 
 /* course info bottom */
 .course_info_bottom {
   display: flex;
+  justify-content: space-between;
+  font-size: 14px;
 }
 
 /* rating icon */
@@ -222,4 +238,15 @@ hr {
 .fa-star-gray {
   color: #aeaeae;
   opacity: 0.25;
+}
+
+.rating_num {
+  color: #a2a2a2;
+}
+
+.course_duration {
+  background-color: #ffe4e8;
+  border-radius: 50px;
+  color: #ff4a60;
+  padding: 0px 6px;
 }
